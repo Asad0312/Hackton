@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+    
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background: rgb(255, 167, 2); 
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.logo a{
+    font-size: 35px; 
+    font-weight: 600; 
+    color: white;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+button{
+    background-color: rgb(179, 0, 0);
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+div>h1{
+    font-size: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+ div>img{
+    padding-left: 500px;
+} 
+.second{
+    display: flex;
+}
+div>h2{
+    font-size: 40px;
+    padding-left: 100px;
+}
+div>button{
+    margin-left: 100px;
+    padding: 20px 10px;
+    margin-top: 10px;
+}
+.third{
+    display: flex;
+    margin-top: 25px;
+}
+div>a>img{
+    margin-left: 40px;
+    height: 30px;
+}
